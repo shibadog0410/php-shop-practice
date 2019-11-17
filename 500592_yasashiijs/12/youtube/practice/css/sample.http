@@ -1,0 +1,1 @@
+GET https://www.googleapis.com/youtube/v3/search?type=video&part=snippet&q=にじさんじ&videoEmbeddable=true&videoSyndicated=true&maxResults=6&key=AIzaSyBKAunCO4pT3G1vIu3RRpr1_-PKttm8XAM

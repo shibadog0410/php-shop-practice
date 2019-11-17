@@ -1,0 +1,52 @@
+[17-Nov-2019 01:02:11 Asia/Tokyo] PHP Notice:  Undefined variable: yamada in /Users/shiba/git/php/sample.php on line 11
+[17-Nov-2019 01:02:11 Asia/Tokyo] PHP Stack trace:
+[17-Nov-2019 01:02:11 Asia/Tokyo] PHP   1. {main}() /Users/shiba/git/php/sample.php:0
+[17-Nov-2019 01:02:11 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function work() on null in /Users/shiba/git/php/sample.php:11
+Stack trace:
+#0 {main}
+  thrown in /Users/shiba/git/php/sample.php on line 11
+[17-Nov-2019 01:02:35 Asia/Tokyo] PHP Deprecated:  Non-static method Employee::work() should not be called statically in /Users/shiba/git/php/sample.php on line 11
+[17-Nov-2019 01:02:35 Asia/Tokyo] PHP Stack trace:
+[17-Nov-2019 01:02:35 Asia/Tokyo] PHP   1. {main}() /Users/shiba/git/php/sample.php:0
+[17-Nov-2019 01:09:16 Asia/Tokyo] PHP Catchable fatal error:  Object of class Employee could not be converted to string in /Users/shiba/git/php/sample.php on line 13
+[17-Nov-2019 01:09:16 Asia/Tokyo] PHP Stack trace:
+[17-Nov-2019 01:09:16 Asia/Tokyo] PHP   1. {main}() /Users/shiba/git/php/sample.php:0
+[17-Nov-2019 01:18:15 Asia/Tokyo] PHP Warning:  Unexpected character in input:  '' (ASCII=14) state=0 in /Users/shiba/git/php/sample.php on line 15
+[17-Nov-2019 01:18:24 Asia/Tokyo] PHP Warning:  Unexpected character in input:  '' (ASCII=14) state=0 in /Users/shiba/git/php/sample.php on line 15
+[17-Nov-2019 01:19:00 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Cannot access private property Employee::$state in /Users/shiba/git/php/sample.php:14
+Stack trace:
+#0 {main}
+  thrown in /Users/shiba/git/php/sample.php on line 14
+[17-Nov-2019 01:28:31 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Cannot access private property Employee::$state in /Users/shiba/git/php/sample.php:35
+Stack trace:
+#0 {main}
+  thrown in /Users/shiba/git/php/sample.php on line 35
+[17-Nov-2019 01:29:18 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Cannot access private property Employee::$state in /Users/shiba/git/php/sample.php:35
+Stack trace:
+#0 {main}
+  thrown in /Users/shiba/git/php/sample.php on line 35
+[17-Nov-2019 01:29:20 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Cannot access private property Employee::$state in /Users/shiba/git/php/sample.php:35
+Stack trace:
+#0 {main}
+  thrown in /Users/shiba/git/php/sample.php on line 35
+[17-Nov-2019 01:29:26 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Cannot access private property Employee::$state in /Users/shiba/git/php/sample.php:35
+Stack trace:
+#0 {main}
+  thrown in /Users/shiba/git/php/sample.php on line 35
+[17-Nov-2019 01:44:52 Asia/Tokyo] PHP Warning:  Unexpected character in input:  '' (ASCII=14) state=0 in /Users/shiba/git/php/sample.php on line 7
+[17-Nov-2019 08:54:32 Asia/Tokyo] PHP Warning:  Declaration of Programmer::work($how) should be compatible with Employee::work() in /Users/shiba/git/php/programmer.php on line 3
+[17-Nov-2019 08:54:32 Asia/Tokyo] PHP Stack trace:
+[17-Nov-2019 08:54:32 Asia/Tokyo] PHP   1. {main}() /Users/shiba/git/php/programmer.php:0
+[17-Nov-2019 08:55:12 Asia/Tokyo] PHP Warning:  Declaration of Programmer::work($work) should be compatible with Employee::work() in /Users/shiba/git/php/programmer.php on line 3
+[17-Nov-2019 08:55:12 Asia/Tokyo] PHP Stack trace:
+[17-Nov-2019 08:55:12 Asia/Tokyo] PHP   1. {main}() /Users/shiba/git/php/programmer.php:0
+[17-Nov-2019 08:56:48 Asia/Tokyo] PHP Fatal error:  Default value for parameters with a class type can only be NULL in /Users/shiba/git/php/programmer.php on line 11
+[17-Nov-2019 08:57:10 Asia/Tokyo] PHP Warning:  Unexpected character in input:  '' (ASCII=8) state=0 in /Users/shiba/git/php/programmer.php on line 11
+[17-Nov-2019 08:57:35 Asia/Tokyo] PHP Warning:  Unexpected character in input:  '' (ASCII=8) state=0 in /Users/shiba/git/php/programmer.php on line 11
+[17-Nov-2019 09:09:33 Asia/Tokyo] PHP Fatal error:  Cannot override final method Employee::getSalary() in /Users/shiba/git/php/programmer.php on line 3
+[17-Nov-2019 09:09:33 Asia/Tokyo] PHP Stack trace:
+[17-Nov-2019 09:09:33 Asia/Tokyo] PHP   1. {main}() /Users/shiba/git/php/programmer.php:0
+[17-Nov-2019 09:17:04 Asia/Tokyo] PHP Fatal error:  Cannot use ___PHPSTORM_HELPERS\object as object because 'object' is a special class name in /Users/shiba/git/php/programmer.php on line 3
+[17-Nov-2019 09:25:18 Asia/Tokyo] PHP Fatal error:  Class Programmer contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Employee::work) in /Users/shiba/git/php/programmer.php on line 3
+[17-Nov-2019 09:25:18 Asia/Tokyo] PHP Stack trace:
+[17-Nov-2019 09:25:18 Asia/Tokyo] PHP   1. {main}() /Users/shiba/git/php/programmer.php:0
